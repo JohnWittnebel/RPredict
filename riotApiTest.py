@@ -39,5 +39,5 @@ jsonResults = get_request()
 teams = parse_team_data(jsonResults)
 print(teams[0][4])
 
-#print(jsonResults["info"]["gameVersion"])
+print(jsonResults["info"]["gameVersion"])
 
